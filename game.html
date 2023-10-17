@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="https://openclipart.org/image/400px/192404" />
+  </head>
+  <body>
+    <section class="game-container">
+      <div class="game-card">
+        <h2>Welcome to the game!</h2>
+
+        <span id="result">Start your game.</span>
+
+        <div class="details">
+          <div class="you">
+            <p>You</p>
+            <p id="you"></p>
+
+            <!-- Lose Count  -->
+            <span id="compCount"> </span>
+          </div>
+          <span id="line"> VS</span>
+          <div class="comp">
+            <p>Computer</p>
+            <p id="comp"></p>
+
+            <!-- win count  -->
+            <span id="winCount"></span>
+          </div>
+        </div>
+        <div class="buttons">
+          <button id="rock" class="btn">Rock</button>
+          <button id="paper" class="btn">Paper</button>
+          <button id="scissor" class="btn">Scissor</button>
+        </div>
+      </div>
+    </section>
+    <script src="./main.js"></script>
+  </body>
+</html>

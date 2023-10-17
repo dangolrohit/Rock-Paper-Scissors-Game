@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.game-container {
+  font-family: "Montserrat Alternates", sans-serif;
+  background-color: rgb(168, 219, 255);
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 25px;
+}
+.game-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  padding: 5px;
+}
+button {
+  font-family: "Montserrat", sans-serif;
+  padding: 5px 10px;
+  background-color: #4895bf;
+  border: none;
+  border-radius: 0.2rem;
+  color: white;
+}
+button:hover {
+  background-color: rgb(50, 113, 221);
+}
+.details {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.you {
+  text-align: center;
+}
+.comp {
+  text-align: center;
+}
+.wins {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#compCount,
+#winCount {
+  font-size: 10px;
+}
